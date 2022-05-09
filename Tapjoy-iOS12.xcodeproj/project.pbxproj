@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F5F554C62828E2C3007E54B0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F554C52828E2C3007E54B0 /* AppDelegate.m */; };
+		F5F554C92828E2C3007E54B0 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F554C82828E2C3007E54B0 /* SceneDelegate.m */; };
+		F5F554CC2828E2C3007E54B0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F554CB2828E2C3007E54B0 /* ViewController.m */; };
+		F5F554CF2828E2C3007E54B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5F554CD2828E2C3007E54B0 /* Main.storyboard */; };
+		F5F554D12828E2C4007E54B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5F554D02828E2C4007E54B0 /* Assets.xcassets */; };
+		F5F554D42828E2C4007E54B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5F554D22828E2C4007E54B0 /* LaunchScreen.storyboard */; };
+		F5F554D72828E2C4007E54B0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F554D62828E2C4007E54B0 /* main.m */; };
+		F5F554E12828E2C4007E54B0 /* Tapjoy_iOS12Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F554E02828E2C4007E54B0 /* Tapjoy_iOS12Tests.m */; };
+		F5F554EB2828E2C4007E54B0 /* Tapjoy_iOS12UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F554EA2828E2C4007E54B0 /* Tapjoy_iOS12UITests.m */; };
+		F5F554ED2828E2C4007E54B0 /* Tapjoy_iOS12UITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F554EC2828E2C4007E54B0 /* Tapjoy_iOS12UITestsLaunchTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F5F554DD2828E2C4007E54B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5F554B92828E2C3007E54B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5F554C02828E2C3007E54B0;
+			remoteInfo = "Tapjoy-iOS12";
+		};
+		F5F554E72828E2C4007E54B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5F554B92828E2C3007E54B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5F554C02828E2C3007E54B0;
+			remoteInfo = "Tapjoy-iOS12";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F5F554C12828E2C3007E54B0 /* Tapjoy-iOS12.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tapjoy-iOS12.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5F554C42828E2C3007E54B0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F5F554C52828E2C3007E54B0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F5F554C72828E2C3007E54B0 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		F5F554C82828E2C3007E54B0 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		F5F554CA2828E2C3007E54B0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F5F554CB2828E2C3007E54B0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F5F554CE2828E2C3007E54B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F5F554D02828E2C4007E54B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F5F554D32828E2C4007E54B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F5F554D52828E2C4007E54B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5F554D62828E2C4007E54B0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F5F554DC2828E2C4007E54B0 /* Tapjoy-iOS12Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tapjoy-iOS12Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5F554E02828E2C4007E54B0 /* Tapjoy_iOS12Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tapjoy_iOS12Tests.m; sourceTree = "<group>"; };
+		F5F554E62828E2C4007E54B0 /* Tapjoy-iOS12UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tapjoy-iOS12UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5F554EA2828E2C4007E54B0 /* Tapjoy_iOS12UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tapjoy_iOS12UITests.m; sourceTree = "<group>"; };
+		F5F554EC2828E2C4007E54B0 /* Tapjoy_iOS12UITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tapjoy_iOS12UITestsLaunchTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5F554BE2828E2C3007E54B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5F554D92828E2C4007E54B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5F554E32828E2C4007E54B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F5F554B82828E2C3007E54B0 = {
+			isa = PBXGroup;
+			children = (
+				F5F554C32828E2C3007E54B0 /* Tapjoy-iOS12 */,
+				F5F554DF2828E2C4007E54B0 /* Tapjoy-iOS12Tests */,
+				F5F554E92828E2C4007E54B0 /* Tapjoy-iOS12UITests */,
+				F5F554C22828E2C3007E54B0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F5F554C22828E2C3007E54B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5F554C12828E2C3007E54B0 /* Tapjoy-iOS12.app */,
+				F5F554DC2828E2C4007E54B0 /* Tapjoy-iOS12Tests.xctest */,
+				F5F554E62828E2C4007E54B0 /* Tapjoy-iOS12UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5F554C32828E2C3007E54B0 /* Tapjoy-iOS12 */ = {
+			isa = PBXGroup;
+			children = (
+				F5F554C42828E2C3007E54B0 /* AppDelegate.h */,
+				F5F554C52828E2C3007E54B0 /* AppDelegate.m */,
+				F5F554C72828E2C3007E54B0 /* SceneDelegate.h */,
+				F5F554C82828E2C3007E54B0 /* SceneDelegate.m */,
+				F5F554CA2828E2C3007E54B0 /* ViewController.h */,
+				F5F554CB2828E2C3007E54B0 /* ViewController.m */,
+				F5F554CD2828E2C3007E54B0 /* Main.storyboard */,
+				F5F554D02828E2C4007E54B0 /* Assets.xcassets */,
+				F5F554D22828E2C4007E54B0 /* LaunchScreen.storyboard */,
+				F5F554D52828E2C4007E54B0 /* Info.plist */,
+				F5F554D62828E2C4007E54B0 /* main.m */,
+			);
+			path = "Tapjoy-iOS12";
+			sourceTree = "<group>";
+		};
+		F5F554DF2828E2C4007E54B0 /* Tapjoy-iOS12Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F5F554E02828E2C4007E54B0 /* Tapjoy_iOS12Tests.m */,
+			);
+			path = "Tapjoy-iOS12Tests";
+			sourceTree = "<group>";
+		};
+		F5F554E92828E2C4007E54B0 /* Tapjoy-iOS12UITests */ = {
+			isa = PBXGroup;
+			children = (
+				F5F554EA2828E2C4007E54B0 /* Tapjoy_iOS12UITests.m */,
+				F5F554EC2828E2C4007E54B0 /* Tapjoy_iOS12UITestsLaunchTests.m */,
+			);
+			path = "Tapjoy-iOS12UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5F554C02828E2C3007E54B0 /* Tapjoy-iOS12 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5F554F02828E2C4007E54B0 /* Build configuration list for PBXNativeTarget "Tapjoy-iOS12" */;
+			buildPhases = (
+				F5F554BD2828E2C3007E54B0 /* Sources */,
+				F5F554BE2828E2C3007E54B0 /* Frameworks */,
+				F5F554BF2828E2C3007E54B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tapjoy-iOS12";
+			productName = "Tapjoy-iOS12";
+			productReference = F5F554C12828E2C3007E54B0 /* Tapjoy-iOS12.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F5F554DB2828E2C4007E54B0 /* Tapjoy-iOS12Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5F554F32828E2C4007E54B0 /* Build configuration list for PBXNativeTarget "Tapjoy-iOS12Tests" */;
+			buildPhases = (
+				F5F554D82828E2C4007E54B0 /* Sources */,
+				F5F554D92828E2C4007E54B0 /* Frameworks */,
+				F5F554DA2828E2C4007E54B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5F554DE2828E2C4007E54B0 /* PBXTargetDependency */,
+			);
+			name = "Tapjoy-iOS12Tests";
+			productName = "Tapjoy-iOS12Tests";
+			productReference = F5F554DC2828E2C4007E54B0 /* Tapjoy-iOS12Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F5F554E52828E2C4007E54B0 /* Tapjoy-iOS12UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5F554F62828E2C4007E54B0 /* Build configuration list for PBXNativeTarget "Tapjoy-iOS12UITests" */;
+			buildPhases = (
+				F5F554E22828E2C4007E54B0 /* Sources */,
+				F5F554E32828E2C4007E54B0 /* Frameworks */,
+				F5F554E42828E2C4007E54B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5F554E82828E2C4007E54B0 /* PBXTargetDependency */,
+			);
+			name = "Tapjoy-iOS12UITests";
+			productName = "Tapjoy-iOS12UITests";
+			productReference = F5F554E62828E2C4007E54B0 /* Tapjoy-iOS12UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5F554B92828E2C3007E54B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					F5F554C02828E2C3007E54B0 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					F5F554DB2828E2C4007E54B0 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = F5F554C02828E2C3007E54B0;
+					};
+					F5F554E52828E2C4007E54B0 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = F5F554C02828E2C3007E54B0;
+					};
+				};
+			};
+			buildConfigurationList = F5F554BC2828E2C3007E54B0 /* Build configuration list for PBXProject "Tapjoy-iOS12" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F5F554B82828E2C3007E54B0;
+			productRefGroup = F5F554C22828E2C3007E54B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5F554C02828E2C3007E54B0 /* Tapjoy-iOS12 */,
+				F5F554DB2828E2C4007E54B0 /* Tapjoy-iOS12Tests */,
+				F5F554E52828E2C4007E54B0 /* Tapjoy-iOS12UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5F554BF2828E2C3007E54B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5F554D42828E2C4007E54B0 /* LaunchScreen.storyboard in Resources */,
+				F5F554D12828E2C4007E54B0 /* Assets.xcassets in Resources */,
+				F5F554CF2828E2C3007E54B0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5F554DA2828E2C4007E54B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5F554E42828E2C4007E54B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5F554BD2828E2C3007E54B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5F554CC2828E2C3007E54B0 /* ViewController.m in Sources */,
+				F5F554C62828E2C3007E54B0 /* AppDelegate.m in Sources */,
+				F5F554D72828E2C4007E54B0 /* main.m in Sources */,
+				F5F554C92828E2C3007E54B0 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5F554D82828E2C4007E54B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5F554E12828E2C4007E54B0 /* Tapjoy_iOS12Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5F554E22828E2C4007E54B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5F554ED2828E2C4007E54B0 /* Tapjoy_iOS12UITestsLaunchTests.m in Sources */,
+				F5F554EB2828E2C4007E54B0 /* Tapjoy_iOS12UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F5F554DE2828E2C4007E54B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5F554C02828E2C3007E54B0 /* Tapjoy-iOS12 */;
+			targetProxy = F5F554DD2828E2C4007E54B0 /* PBXContainerItemProxy */;
+		};
+		F5F554E82828E2C4007E54B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5F554C02828E2C3007E54B0 /* Tapjoy-iOS12 */;
+			targetProxy = F5F554E72828E2C4007E54B0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F5F554CD2828E2C3007E54B0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5F554CE2828E2C3007E54B0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F5F554D22828E2C4007E54B0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5F554D32828E2C4007E54B0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F5F554EE2828E2C4007E54B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F5F554EF2828E2C4007E54B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5F554F12828E2C4007E54B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 89XPZ7US27;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Tapjoy-iOS12/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sample.Tapjoy-iOS12";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F5F554F22828E2C4007E54B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 89XPZ7US27;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Tapjoy-iOS12/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sample.Tapjoy-iOS12";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F5F554F42828E2C4007E54B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 89XPZ7US27;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sample.Tapjoy-iOS12Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tapjoy-iOS12.app/Tapjoy-iOS12";
+			};
+			name = Debug;
+		};
+		F5F554F52828E2C4007E54B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 89XPZ7US27;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sample.Tapjoy-iOS12Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tapjoy-iOS12.app/Tapjoy-iOS12";
+			};
+			name = Release;
+		};
+		F5F554F72828E2C4007E54B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 89XPZ7US27;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sample.Tapjoy-iOS12UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Tapjoy-iOS12";
+			};
+			name = Debug;
+		};
+		F5F554F82828E2C4007E54B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 89XPZ7US27;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sample.Tapjoy-iOS12UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Tapjoy-iOS12";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5F554BC2828E2C3007E54B0 /* Build configuration list for PBXProject "Tapjoy-iOS12" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5F554EE2828E2C4007E54B0 /* Debug */,
+				F5F554EF2828E2C4007E54B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5F554F02828E2C4007E54B0 /* Build configuration list for PBXNativeTarget "Tapjoy-iOS12" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5F554F12828E2C4007E54B0 /* Debug */,
+				F5F554F22828E2C4007E54B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5F554F32828E2C4007E54B0 /* Build configuration list for PBXNativeTarget "Tapjoy-iOS12Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5F554F42828E2C4007E54B0 /* Debug */,
+				F5F554F52828E2C4007E54B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5F554F62828E2C4007E54B0 /* Build configuration list for PBXNativeTarget "Tapjoy-iOS12UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5F554F72828E2C4007E54B0 /* Debug */,
+				F5F554F82828E2C4007E54B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F5F554B92828E2C3007E54B0 /* Project object */;
+}
