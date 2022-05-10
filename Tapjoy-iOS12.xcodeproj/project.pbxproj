@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E619837379CCE6B6638884E /* Pods_Tapjoy_iOS12Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4B2E4728FDA8D2324E67E24 /* Pods_Tapjoy_iOS12Tests.framework */; };
+		41119F90C4B8EDC9C9F210EA /* Pods_Tapjoy_iOS12_Tapjoy_iOS12UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D5F10755BA6C8F6E86ABFF1 /* Pods_Tapjoy_iOS12_Tapjoy_iOS12UITests.framework */; };
 		F5F554C62828E2C3007E54B0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F554C52828E2C3007E54B0 /* AppDelegate.m */; };
 		F5F554C92828E2C3007E54B0 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F554C82828E2C3007E54B0 /* SceneDelegate.m */; };
 		F5F554CC2828E2C3007E54B0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F554CB2828E2C3007E54B0 /* ViewController.m */; };
@@ -17,6 +19,7 @@
 		F5F554E12828E2C4007E54B0 /* Tapjoy_iOS12Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F554E02828E2C4007E54B0 /* Tapjoy_iOS12Tests.m */; };
 		F5F554EB2828E2C4007E54B0 /* Tapjoy_iOS12UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F554EA2828E2C4007E54B0 /* Tapjoy_iOS12UITests.m */; };
 		F5F554ED2828E2C4007E54B0 /* Tapjoy_iOS12UITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F554EC2828E2C4007E54B0 /* Tapjoy_iOS12UITestsLaunchTests.m */; };
+		FF65CE24405D14DE43E49849 /* Pods_Tapjoy_iOS12.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2BD412C14B7F3132EAD5157 /* Pods_Tapjoy_iOS12.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +40,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A795AA6FC2C660638EE7DBC /* Pods-Tapjoy-iOS12Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tapjoy-iOS12Tests.release.xcconfig"; path = "Target Support Files/Pods-Tapjoy-iOS12Tests/Pods-Tapjoy-iOS12Tests.release.xcconfig"; sourceTree = "<group>"; };
+		2D5F10755BA6C8F6E86ABFF1 /* Pods_Tapjoy_iOS12_Tapjoy_iOS12UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tapjoy_iOS12_Tapjoy_iOS12UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B07194D23F261D2DFB9EBFF /* Pods-Tapjoy-iOS12-Tapjoy-iOS12UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tapjoy-iOS12-Tapjoy-iOS12UITests.release.xcconfig"; path = "Target Support Files/Pods-Tapjoy-iOS12-Tapjoy-iOS12UITests/Pods-Tapjoy-iOS12-Tapjoy-iOS12UITests.release.xcconfig"; sourceTree = "<group>"; };
+		3FD52C47FE8D9E4CFD8FACA1 /* Pods-Tapjoy-iOS12.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tapjoy-iOS12.release.xcconfig"; path = "Target Support Files/Pods-Tapjoy-iOS12/Pods-Tapjoy-iOS12.release.xcconfig"; sourceTree = "<group>"; };
+		5F7236583BF470331519518F /* Pods-Tapjoy-iOS12.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tapjoy-iOS12.debug.xcconfig"; path = "Target Support Files/Pods-Tapjoy-iOS12/Pods-Tapjoy-iOS12.debug.xcconfig"; sourceTree = "<group>"; };
+		76DED65B10CFC33DA017D151 /* Pods-Tapjoy-iOS12-Tapjoy-iOS12UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tapjoy-iOS12-Tapjoy-iOS12UITests.debug.xcconfig"; path = "Target Support Files/Pods-Tapjoy-iOS12-Tapjoy-iOS12UITests/Pods-Tapjoy-iOS12-Tapjoy-iOS12UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8C10F8C5E6BC8A645A9DFE33 /* Pods-Tapjoy-iOS12Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tapjoy-iOS12Tests.debug.xcconfig"; path = "Target Support Files/Pods-Tapjoy-iOS12Tests/Pods-Tapjoy-iOS12Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		D2BD412C14B7F3132EAD5157 /* Pods_Tapjoy_iOS12.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tapjoy_iOS12.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4B2E4728FDA8D2324E67E24 /* Pods_Tapjoy_iOS12Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tapjoy_iOS12Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5F554C12828E2C3007E54B0 /* Tapjoy-iOS12.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tapjoy-iOS12.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5F554C42828E2C3007E54B0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F5F554C52828E2C3007E54B0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -61,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF65CE24405D14DE43E49849 /* Pods_Tapjoy_iOS12.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E619837379CCE6B6638884E /* Pods_Tapjoy_iOS12Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,12 +89,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41119F90C4B8EDC9C9F210EA /* Pods_Tapjoy_iOS12_Tapjoy_iOS12UITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E4B4903005876CDD734635E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D2BD412C14B7F3132EAD5157 /* Pods_Tapjoy_iOS12.framework */,
+				2D5F10755BA6C8F6E86ABFF1 /* Pods_Tapjoy_iOS12_Tapjoy_iOS12UITests.framework */,
+				F4B2E4728FDA8D2324E67E24 /* Pods_Tapjoy_iOS12Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5AA7E2A81270E946EA5E2C7F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5F7236583BF470331519518F /* Pods-Tapjoy-iOS12.debug.xcconfig */,
+				3FD52C47FE8D9E4CFD8FACA1 /* Pods-Tapjoy-iOS12.release.xcconfig */,
+				76DED65B10CFC33DA017D151 /* Pods-Tapjoy-iOS12-Tapjoy-iOS12UITests.debug.xcconfig */,
+				3B07194D23F261D2DFB9EBFF /* Pods-Tapjoy-iOS12-Tapjoy-iOS12UITests.release.xcconfig */,
+				8C10F8C5E6BC8A645A9DFE33 /* Pods-Tapjoy-iOS12Tests.debug.xcconfig */,
+				1A795AA6FC2C660638EE7DBC /* Pods-Tapjoy-iOS12Tests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		F5F554B82828E2C3007E54B0 = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +126,8 @@
 				F5F554DF2828E2C4007E54B0 /* Tapjoy-iOS12Tests */,
 				F5F554E92828E2C4007E54B0 /* Tapjoy-iOS12UITests */,
 				F5F554C22828E2C3007E54B0 /* Products */,
+				5AA7E2A81270E946EA5E2C7F /* Pods */,
+				1E4B4903005876CDD734635E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -143,6 +183,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F5F554F02828E2C4007E54B0 /* Build configuration list for PBXNativeTarget "Tapjoy-iOS12" */;
 			buildPhases = (
+				D3E8BF5C6C1981F8DA0456CE /* [CP] Check Pods Manifest.lock */,
 				F5F554BD2828E2C3007E54B0 /* Sources */,
 				F5F554BE2828E2C3007E54B0 /* Frameworks */,
 				F5F554BF2828E2C3007E54B0 /* Resources */,
@@ -160,6 +201,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F5F554F32828E2C4007E54B0 /* Build configuration list for PBXNativeTarget "Tapjoy-iOS12Tests" */;
 			buildPhases = (
+				E135DAFEE815CBA5AB357886 /* [CP] Check Pods Manifest.lock */,
 				F5F554D82828E2C4007E54B0 /* Sources */,
 				F5F554D92828E2C4007E54B0 /* Frameworks */,
 				F5F554DA2828E2C4007E54B0 /* Resources */,
@@ -178,6 +220,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F5F554F62828E2C4007E54B0 /* Build configuration list for PBXNativeTarget "Tapjoy-iOS12UITests" */;
 			buildPhases = (
+				1E0D268604B8456F77241C47 /* [CP] Check Pods Manifest.lock */,
 				F5F554E22828E2C4007E54B0 /* Sources */,
 				F5F554E32828E2C4007E54B0 /* Frameworks */,
 				F5F554E42828E2C4007E54B0 /* Resources */,
@@ -260,6 +303,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1E0D268604B8456F77241C47 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tapjoy-iOS12-Tapjoy-iOS12UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3E8BF5C6C1981F8DA0456CE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tapjoy-iOS12-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E135DAFEE815CBA5AB357886 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tapjoy-iOS12Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F5F554BD2828E2C3007E54B0 /* Sources */ = {
@@ -375,7 +487,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -427,7 +539,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -437,6 +549,7 @@
 		};
 		F5F554F12828E2C4007E54B0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F7236583BF470331519518F /* Pods-Tapjoy-iOS12.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -464,6 +577,7 @@
 		};
 		F5F554F22828E2C4007E54B0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FD52C47FE8D9E4CFD8FACA1 /* Pods-Tapjoy-iOS12.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -491,6 +605,7 @@
 		};
 		F5F554F42828E2C4007E54B0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C10F8C5E6BC8A645A9DFE33 /* Pods-Tapjoy-iOS12Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -509,6 +624,7 @@
 		};
 		F5F554F52828E2C4007E54B0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A795AA6FC2C660638EE7DBC /* Pods-Tapjoy-iOS12Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +643,7 @@
 		};
 		F5F554F72828E2C4007E54B0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76DED65B10CFC33DA017D151 /* Pods-Tapjoy-iOS12-Tapjoy-iOS12UITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -543,6 +660,7 @@
 		};
 		F5F554F82828E2C4007E54B0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B07194D23F261D2DFB9EBFF /* Pods-Tapjoy-iOS12-Tapjoy-iOS12UITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
